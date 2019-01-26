@@ -1,0 +1,67 @@
+.LoginForm{
+    /*display: none !important;*/
+    
+    position: fixed;
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: #45484d;*/
+    background: -webkit-linear-gradient(top, #606c88 0%,#3f4c6b 100%);
+    
+}
+
+#login-form{
+    position: fixed;
+    width: 200px;
+    top: 45%;
+    left: 42%;
+}
+#login-form * {
+    box-sizing: border-box;
+}
+
+#login-form  input{
+    display: block;
+    margin-bottom: 5px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding:10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+#login-form  input:focus{
+    outline: none;
+    border: 2px solid #febf04;
+}
+    
+#login-form button{
+    display: block;
+    width: 100%;
+    
+    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 3px;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+#login-form button:hover{
+    border-bottom: 2px solid #febf04;
+}
+
+#login-form button:focus{
+    outline: none;
+    border: none;
+}

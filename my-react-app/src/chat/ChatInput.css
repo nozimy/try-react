@@ -1,0 +1,42 @@
+
+
+.ChatInput{
+    /*display: inline-block;*/
+    
+    /*width: 70%;*/
+    /*height: 15%;*/
+    border-top: solid 1px #e4e6e9;
+
+    
+    position: absolute;
+    background: #fafbfc;
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#chat-input-form {
+}
+
+#chat-input-form input {
+    border: 0;
+    padding:10px;
+    width:80%;
+    margin-right: .5%;
+    box-sizing: border-box;
+    height: 100%;
+    bottom: 0;
+    float: left;
+}
+
+#chat-input-form button{
+    width: 19%;
+    background: #ffeac1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    bottom: 0;
+}
+

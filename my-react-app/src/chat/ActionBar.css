@@ -1,0 +1,7 @@
+.ActionBar{
+    position: absolute;
+    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
+    width: 100%;
+    height: 40px;
+    top: 0;
+}

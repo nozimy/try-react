@@ -1,0 +1,28 @@
+#Messages-History{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*display: inline-block;*/
+    /*right: -30%;*/
+    /*top:0;*/
+    
+    /*width: 70%;*/
+    height: 100%;
+    /*vertical-align: top;*/
+    
+    overflow: scroll;
+    bottom:0;
+}
+#messages{
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) { 
+    background: #eee;
+}

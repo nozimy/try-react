@@ -1,0 +1,14 @@
+npm run build
+
+./node_modules/.bin/babel index.js
+babel cli in package.json: scripts{"build": "babel src -d lib"}
+
+
+./node_modules/.bin/webpack --config webpack.config.js
+package.js:
+scripts{
+    "build": "webpack"
+}
+
+tutorial react
+https://www.sitepoint.com/building-a-react-universal-blog-app-a-step-by-step-guide/
